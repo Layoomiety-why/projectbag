@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   // res.send('列出全部 Todo');
-  res.send('<h1>列出全部 Todo</h1>');
+  res.send('this is a test');
 });
 
 app.listen(port, () => {
